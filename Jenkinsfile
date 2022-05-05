@@ -1,6 +1,6 @@
 def ver
 pipeline{
-  agent (label 'BuildUsingSlave')
+  agent {label 'BuildUsingSlave'}
   stages{
     stage("Create Version"){
       steps{
